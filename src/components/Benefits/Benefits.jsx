@@ -1,6 +1,5 @@
 import contaDeLuz from '../../assets/contadeluz.png';
 import painelSolar from '../../assets/painel.png';
-import Button from '../Button/Button';
 
 const Benefits = () => {
   return (
