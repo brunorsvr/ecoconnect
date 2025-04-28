@@ -15,11 +15,11 @@ const Testimonials = () => {
   ];
 
   return (
-    <section id="testimonials" className="flex flex-col items-center py-16 px-6 bg-orange-500">
+    <section id="testimonials" className="flex flex-col items-center py-16 bg-orange-500">
       <h1 className="text-2xl md:text-3xl font-bold text-white mb-5">
         Depoimentos
       </h1>
-      <div className="w-full max-w-5xl">
+      <div className="w-full max-w-screen">
         <Swiper
           className="w-full"
           modules={[Autoplay, Pagination, Navigation]}
