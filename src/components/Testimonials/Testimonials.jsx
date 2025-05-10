@@ -27,7 +27,7 @@ const Testimonials = () => {
           loop
           pagination={{ clickable: true }}
           navigation
-          spaceBetween={30}
+          spaceBetween={25}
           breakpoints={{
             640: { slidesPerView: 1 },
             768: { slidesPerView: 2 },
@@ -36,7 +36,7 @@ const Testimonials = () => {
         >
           {people.map((person, index) => (
             <SwiperSlide key={index}>
-                <div className="bg-white rounded-[30px] p-6 m-4 shadow-md min-h-[260px] flex flex-col justify-between">
+                <div className="bg-white rounded-[25px] p-6 m-3 mb-10 shadow-md min-h-[200px] flex flex-col justify-between">
                 <p className="mb-4">{person.text}</p>
                 <div className="flex items-center gap-2">
                     <img src={googleLogo} alt="Google" className="w-6 h-6" />
