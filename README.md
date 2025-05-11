@@ -65,21 +65,3 @@ Acesse:
 ```
 http://localhost:5173/
 ```
-
----
-
-## 📋 Estrutura principal
-
-```
-src/
- ├── components/
- │    ├── Button.jsx
- │    ├── Header.jsx
- │    ├── Hero.jsx
- │    ├── Form.jsx
- │    ├── Testimonials.jsx
- │    ├── FinalText.jsx
- │    └── Footer.jsx
- ├── App.jsx
- └── main.jsx
-```
